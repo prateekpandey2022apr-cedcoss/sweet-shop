@@ -19,7 +19,7 @@ function Product(props) {
         <img src={props.details.image} width={230} />
       </p>
       {/* <p>Camera TZ85 optical</p> */}
-      <p>&#8377; {props.details.price}</p>
+      <p>&#8377; {props.details.price.toFixed(2)}</p>
 
       <button
         data-id={props.details.id}

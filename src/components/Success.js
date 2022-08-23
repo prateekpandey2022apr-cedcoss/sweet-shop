@@ -9,7 +9,7 @@ function Success() {
       <PrimaryNav />
       <SecondaryNav />
       <div className="wrapper">
-        <div className="center">
+        <div className="center success-container">
           <h2>Order Successfull &#127881;</h2>
           <p>
             <Link to="/" className="btn">

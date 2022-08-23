@@ -314,6 +314,7 @@ input:checked+.slide-container .nav label {
 
 .product-list {
   justify-content: center;
+  margin-top: 2em;
 }
 
 
@@ -368,6 +369,10 @@ input:checked+.slide-container .nav label {
   opacity: 1;
   transition: 0s
 }
+
+/* .no-product-list {
+  margin-top: 2em;
+} */
 
 /* end of product list */
 
@@ -536,6 +541,18 @@ form button {
 }
 
 /* end of login */
+
+/*  success */
+
+.success-container {
+  margin-top: 2em;
+}
+
+.success-container h2 {
+  margin-bottom: 2em;
+}
+
+/*  starting of another success */
 
 @media screen and (max-width: 680px) {
   ul.slides {

@@ -182,7 +182,9 @@ export function SweetProvider({ children }) {
         (item) => item.category.toLowerCase() === selectedCategory
       );
     } else {
-      filteredItems = inventory;
+      filteredItems = inventory.filter((item) =>
+        item.name.toLocaleLowerCase().includes(query)
+      );
     }
 
     //
