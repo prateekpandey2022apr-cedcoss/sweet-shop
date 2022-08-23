@@ -42,7 +42,7 @@ function Cart() {
                         onClick={(event) => {
                           if (item.quantity !== 1) {
                             handleQtyUpdate(event, item.id, "-");
-                          } else if (window.confirm("Are you sure")) {
+                          } else if (window.confirm("Are you sure?")) {
                             handleQtyUpdate(event, item.id, "-");
                             // onClick={(event) => handleQtyUpdate(event, item.id)}
                           }

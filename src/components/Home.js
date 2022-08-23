@@ -28,6 +28,7 @@ function Home() {
     handleSearchSubmit,
     selectedCategory,
     setSelectedCategory,
+    cart,
   } = useContext(SweetContext);
 
   // console.log(inventory);
@@ -44,6 +45,17 @@ function Home() {
           <Intro />
           <Hr />
         </>
+      )}
+
+      {cart.length > 0 && (
+        <div id="floating-cart">
+          <Link
+            to="/cart"
+            className={scrollPosition > 200 ? "show" : ""}
+            onClick={handleBackToTopClick}
+          ></Link>
+          <span id="cart-count">{cart.length}</span>
+        </div>
       )}
 
       <a

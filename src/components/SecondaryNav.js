@@ -10,7 +10,7 @@ function SecondaryNav() {
       <div className="wrapper">
         <ul className="row sec-nav">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <a href="#">Shop</a>

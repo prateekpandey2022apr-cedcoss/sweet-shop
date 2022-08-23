@@ -14,6 +14,8 @@ function Login() {
   return (
     <div className="wrapper login-wrapper">
       <div className="login-div">
+        <h2>Login</h2>
+
         <form onSubmit={handleLoginClick}>
           <div className="form-element">
             <label htmlFor="username">Enter username</label>
